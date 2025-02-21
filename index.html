@@ -15,10 +15,11 @@
     </header>
 
     <main>
+      <div class="form-container">
       <form id="poem-generator-form">
         <input
           type="text"
-          placeholder="Enter the topic of the English poem"
+          placeholder="Enter the topic of an English poem"
           autofocus
           required
           autocomplete="off"
@@ -27,7 +28,9 @@
         />
         <input type="submit" class="submit-button"/>
       </form>
-      <div class="poem" id="poem">
+      <div class="hint">i.e: Music, Freedom or Romance</div>
+      </div>
+      <div class="poem hidden" id="poem">
         
       </div>
     </main>
